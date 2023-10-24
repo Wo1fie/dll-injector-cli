@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>dll_injector</RootNamespace>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+    <Authors>Wo1fie</Authors>
+    <Title>DLL Injector CLI</Title>
+    <Copyright>Ryan Blanco 2023</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dll-injector-dll\dll-injector-dll.csproj" />
+  </ItemGroup>
+
+</Project>
